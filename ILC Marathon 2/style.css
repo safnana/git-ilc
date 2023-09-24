@@ -1,0 +1,71 @@
+html{
+    padding: 50px;
+    height : 80px;
+    width: 560px;
+}
+header {
+    padding: 15px;
+    background-color: bisque;
+}
+header.container {
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 90px;
+    margin-right: 30px;
+}
+h1{
+    font-size: 40px;
+    font-family:Helvetica;
+}
+
+main {
+    background-color: bisque;
+    padding: 15px;
+    font-family: sans-serif ;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+label{
+    padding-left: 10px;
+    padding-right: 15px;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    flex: 1;
+}
+input{
+    padding-right: 10px;
+    justify-content: left;
+    flex: 2;
+    height: 25px;
+    width : 300px;
+    border-radius: 5px;
+    border-style: inherit;
+}
+select{
+    height: 25px;
+    width : 329px;
+    border-radius: 5px;
+    border-style: inherit;
+}
+.submit{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    font : 12px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 174, 0) ;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border-style: inherit;
+    font-weight: bold;
+    justify-content: center;
+}
